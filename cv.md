@@ -6,6 +6,15 @@
 - **discord:** [tetsus_christ](https://discord.com/users/tetsus_christ)
 - **rs-school server nickname**: tets (tetsus-christ)
 ## ⟣⸺ about me
+
+i'm a complete newbie in web development, but i'm actively learning and eager to learn more. 
+
+web development attracts me because for some reason i find coding a fun thing to do - especially when i can immediatly see the result, and it's interactive.
+
+why do i think i can become a good developer? because i hate so many sites across the internet, and i want to be the change i want to see in the world.
+
+in long term, i aim to become a full-stack developer -- but that's later, let me get a handle on front-end first.
+
 ## ⟣⸺ skills
 ## ⟣⸺ code example
 ## ⟣⸺ courses
