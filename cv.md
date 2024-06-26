@@ -1,4 +1,5 @@
 # Daria Kovaleva
+![a completely legitimate photo](./img/passport-photo.png)
 ## ⟣⸺ contacts
 - **phone**: +7 999 829 15 41
 - **e-mail**: tetsus.christ@gmail.com
