@@ -6,6 +6,7 @@
 - **telegram**: [tetsus_christ](https://t.me/tetsus_christ)
 - **discord:** [tetsus_christ](https://discord.com/users/tetsus_christ)
 - **rs-school server nickname**: tets (tetsus-christ)
+
 ## ⟣ about me
 
 i'm a complete newbie in web development, but i'm actively learning and eager to learn more. 
