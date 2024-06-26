@@ -1,12 +1,12 @@
 # Daria Kovaleva
 ![a completely legitimate photo](./img/passport-photo.png)
-## ⟣⸺ contacts
+## ⟣ contacts
 - **phone**: +7 999 829 15 41
 - **e-mail**: tetsus.christ@gmail.com
 - **telegram**: [tetsus_christ](https://t.me/tetsus_christ)
 - **discord:** [tetsus_christ](https://discord.com/users/tetsus_christ)
 - **rs-school server nickname**: tets (tetsus-christ)
-## ⟣⸺ about me
+## ⟣ about me
 
 i'm a complete newbie in web development, but i'm actively learning and eager to learn more. 
 
@@ -16,10 +16,7 @@ why do i think i can become a good developer? because i hate so many sites acros
 
 in long term, i aim to become a full-stack developer - but that's later, let me get a handle on front-end first.
 
-## ⟣⸺ skills
-## ⟣⸺ code example
-## ⟣⸺ courses
-## ⟣⸺ languages
+## ⟣ languages
 
 **russian**: native
 
