@@ -11,6 +11,14 @@ h2 {
     font-variant: small-caps;
 }
 
+h2 {
+    margin-top: 15px;
+}
+
+pre {
+    white-space: pre;
+  }
+
 .container {
     width: 800px;
     max-width: 90vw;
@@ -38,6 +46,8 @@ h2 {
 .avatar {
     width: 150px;
     height: 150px;
+    max-width: 25vw;
+    max-height: 25vw;
     border-radius: 50%;
 }
 
@@ -56,6 +66,13 @@ h2 {
     background-color: rgba(190, 93, 139, 0.788);
     backdrop-filter: blur(7px);
     border-radius: 0 0 15px 15px;
+}
+
+.tab-content {
+    width: 550px;
+    max-width: 70vw;
+    margin: auto;
+    text-align: left;
 }
 
 #navigation li {
