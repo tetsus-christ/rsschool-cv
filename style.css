@@ -1,0 +1,63 @@
+body {
+    background-image: url("./img/glitch-bg.png");
+    display: flex;
+    flex-direction: column;
+    font-family: 'Comfortaa';
+}
+
+h1,
+h2 {
+    font-family: 'Rowdies';
+    font-variant: small-caps;
+}
+
+header {
+    background-color: rgba(81, 50, 119, 0.76);
+    backdrop-filter: blur(7px) saturate(70%);
+    border-radius: 15px 15px 0 0;
+    text-align: center;
+    position: relative;
+    padding: 15px;
+}
+
+.nav {
+    display: inline;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.container {
+    width: 800px;
+    max-width: 90vw;
+    margin: auto;
+    border-radius: 20px;
+    border-style: double;
+    border-width: 5px;
+    border-color: rgb(81, 50, 119);
+}
+
+.main {
+    background-color: rgba(190, 93, 139, 0.788);
+    backdrop-filter: blur(7px);
+    border-radius: 0 0 15px 15px;
+    text-align: center;
+    position: relative;
+    padding: 15px;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-names {
+    text-align: left;
+}
+
+#navigation li {
+    display: inline
+}

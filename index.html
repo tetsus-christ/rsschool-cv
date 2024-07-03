@@ -4,45 +4,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>✦ CV ✦</title>
 </head>
 
 <body>
-    <header></header>
-    <main>
-        <section id="contacts">
-            <h2>⟣ contacts</h2>
-            <ul>
-                <li>phone</li>
-                <li>e-mail</li>
-                <li>telegram</li>
-                <li>discord</li>
-                <li>rs-school server nickname</li>
-            </ul>
-        </section>
-        <section id="about">
-            <h2>⟣ about me</h2>
-            <p>
-                i'm a complete newbie in web development, but i'm actively learning and eager to learn more.
+    <div class="container">
+        <header>
+            <div class="profile">
+                <img class="avatar" src="./img/avatar.png">
+                <div class="profile-names">
+                    <h1>Daria Kovaleva</h1>
+                    <a><h3>@tetsus-christ</h3></a>
+                </div>
+            </div>
+            <nav>
+                <ul id="navigation">
+                    <li><button onclick="openTab('about')">about me</button></li>
+                    <li><button onclick="openTab('skills')">skills</button></li>
+                    <li><button onclick="openTab('code-example')">code example</button></li>
+                    <li><button onclick="openTab('projects')">projects</button></li>
+                    <li><button onclick="openTab('languages')">languages</button></li>
+                    <li><button onclick="openTab('contacts')">contacts</button></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+                <section class="tab" id="about" >
+                    <h2>about me</h2>
+                    <p>
+                        i'm a complete newbie in web development, but i'm actively learning and eager to learn more.
 
-                web development attracts me because for some reason i find coding a fun thing to do - especially when i can immediatly see the result, and it's interactive.
+                        web development attracts me because for some reason i find coding a fun thing to do - especially when i can immediatly see the result, and it's interactive.
 
-                why do i think i can become a good developer? because i hate so many sites across the internet, and i want to be the change i want to see in the world.
+                        why do i think i can become a good developer? because i hate so many sites across the internet, and i want to be the change i want to see in the world.
 
-                in long term, i aim to become a full-stack developer - but that's later, let me get a handle on front-end first.
-            </p>
-        </section>
-        <section id="languages">
-            <h2>⟣ languages</h2>
-            <p>
-                russian: native
-            </p>
-            <p>
-                english: C2, according to EF SET, but it only tested my reading and listening skills. i guess my writing is somewhere around B2, and speaking is unknown because i don't get many opportunities to speak english. better get ready for my strong russian accent.
-            </p>
-        </section>
-    </main>
-    <footer></footer>
+                        in long term, i aim to become a full-stack developer - but that's later, let me get a handle on front-end first.
+                    </p>
+                </section>
+                <section class="tab" id="skills" style="display:none">
+                    <h2>skills</h2>
+                </section>
+                <section class="tab" id="code-example" style="display:none">
+                    <h2>code example</h2>
+                </section>
+                <section class="tab" id="projects" style="display:none">
+                    <h2>projects</h2>
+                </section>
+                <section class="tab" id="languages" style="display:none">
+                    <h2>languages</h2>
+                    <p>
+                        russian: native
+                    </p>
+                    <p>
+                        english: C2, according to EF SET, but it only tested my reading and listening skills. i guess my writing is somewhere around B2, and speaking is unknown because i don't get many opportunities to speak english. better get ready for my strong russian accent.
+                    </p>
+                </section>
+                <section class="tab" id="contacts" style="display:none">
+                    <h2>contacts</h2>
+                    <ul>
+                        <li>phone</li>
+                        <li>e-mail</li>
+                        <li>telegram</li>
+                        <li>discord</li>
+                        <li>rs-school server nickname</li>
+                    </ul>
+                </section>
+        </main>
+        <footer></footer>
+    </div>
+    <script src="./app.js"></script>
+
 </body>
-
 </html>
