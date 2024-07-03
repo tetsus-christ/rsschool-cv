@@ -32,54 +32,64 @@
         <main class="main">
                 <section class="tab" id="about" >
                     <h2>about me</h2>
-                    <p>
-                        i'm a complete newbie in web development, but i'm actively learning and eager to learn more.
+                    <div class="tab-content">
+                        <p>
+                            i'm a complete newbie in web development, but i'm actively learning and eager to learn more.
 
-                        web development attracts me because for some reason i find coding a fun thing to do - especially when i can immediatly see the result, and it's interactive.
+                            web development attracts me because for some reason i find coding a fun thing to do - especially when i can immediatly see the result, and it's interactive.
 
-                        why do i think i can become a good developer? because i hate so many sites across the internet, and i want to be the change i want to see in the world.
+                            why do i think i can become a good developer? because i hate so many sites across the internet, and i want to be the change i want to see in the world.
 
-                        in long term, i aim to become a full-stack developer - but that's later, let me get a handle on front-end first.
-                    </p>
+                            in long term, i aim to become a full-stack developer - but that's later, let me get a handle on front-end first.
+                        </p>
+                    </div>
                 </section>
                 <section class="tab" id="skills" style="display:none">
                     <h2>skills</h2>
+                    <div class="tab-content"></div>
                 </section>
                 <section class="tab" id="code-example" style="display:none">
                     <h2>code example</h2>
-                    <pre>
-                        <code>
-                            function openTab(ref) {
-                                var tabs = document.getElementsByClassName("tab");
-                                for (let i = 0; i < tabs.length; i++) {
-                                  tabs[i].style.display = "none";
+                    <div class="tab-content">
+                        <pre>
+                            <code>
+                                function openTab(ref) {
+                                    var tabs = document.getElementsByClassName("tab");
+                                    for (let i = 0; i < tabs.length; i++) {
+                                    tabs[i].style.display = "none";
+                                    }
+                                    document.getElementById(ref).style.display = "block";
                                 }
-                                document.getElementById(ref).style.display = "block";
-                              }
-                        </code>
-                    </pre>
+                            </code>
+                        </pre>
+                    </div>
                 </section>
                 <section class="tab" id="projects" style="display:none">
                     <h2>projects</h2>
+                    <div class="tab-content"></div>
                 </section>
                 <section class="tab" id="languages" style="display:none">
                     <h2>languages</h2>
-                    <p>
-                        russian: native
-                    </p>
-                    <p>
-                        english: C2, according to EF SET, but it only tested my reading and listening skills. i guess my writing is somewhere around B2, and speaking is unknown because i don't get many opportunities to speak english. better get ready for my strong russian accent.
-                    </p>
+                    <div class="tab-content">
+                        <p>
+                            russian: native
+                        </p>
+                        <p>
+                            english: C2, according to EF SET, but it only tested my reading and listening skills. i guess my writing is somewhere around B2, and speaking is unknown because i don't get many opportunities to speak english. better get ready for my strong russian accent.
+                        </p>
+                    </div>
                 </section>
                 <section class="tab" id="contacts" style="display:none">
                     <h2>contacts</h2>
-                    <ul>
-                        <li><b>phone:</b> +7 999 829 15 41</li>
-                        <li><b>e-mail:</b> <a href="mailto:tetsus.christ@gmail.com">tetsus.christ@gmail.com</a></li>
-                        <li><b>telegram:</b> <a href="https://t.me/tetsus_christ">tetsus_christ</a></li>
-                        <li><b>discord:</b> <a href="https://discord.com/users/tetsus_christ">tetsus_christ</a></li>
-                        <li><b>rs-school server nickname:</b> tets (tetsus-christ)</li>
-                    </ul>
+                    <div class="tab-content">
+                        <ul>
+                            <li><b>phone:</b> +7 999 829 15 41</li>
+                            <li><b>e-mail:</b> <a href="mailto:tetsus.christ@gmail.com">tetsus.christ@gmail.com</a></li>
+                            <li><b>telegram:</b> <a href="https://t.me/tetsus_christ">tetsus_christ</a></li>
+                            <li><b>discord:</b> <a href="https://discord.com/users/tetsus_christ">tetsus_christ</a></li>
+                            <li><b>rs-school server nickname:</b> tets (tetsus-christ)</li>
+                        </ul>
+                    </div>
                 </section>
         </main>
         <footer></footer>
