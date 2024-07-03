@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: "Comfortaa", "Futura", sans-serif;
-    background-image: url("./img/glitch-bg.png");
+    background-image: url("./assets/img/glitch-bg.png");
 }
 
 h1,
