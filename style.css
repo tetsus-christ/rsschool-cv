@@ -115,7 +115,7 @@ code {
 .footer {
     position: relative;
     text-align: center;
-    background-color: rgba(59, 26, 112, 0.6);
+    background-color: rgba(37, 21, 63, 0.637);
     backdrop-filter: blur(5px) saturate(70%);
 }
 
@@ -126,7 +126,7 @@ code {
 .profile {
     display: flex;
     justify-content: center;
-    padding: 15px 10vw 15px 10vw;
+    padding: 20px 10vw 15px 10vw;
     margin: auto;
 }
 
@@ -138,6 +138,7 @@ code {
     margin: 15px;
     text-align: right;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .profile-names {
@@ -148,7 +149,7 @@ code {
 }
 
 .nav {
-    display: inline;
+    font-size: 0;
 }
 
 .button {
@@ -156,14 +157,21 @@ code {
     height: 40px;
     display: inline-block;
     margin: 0 0 -5px 0;
-    color: #cf548b;
+    color: #36283B;
     font-size: 16px;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
     font-family: "Comfortaa", "Arial", sans-serif;
-    background-color: #36283B;
+    background-color: #cf548b;
     border-radius: 15px 15px 0 0;
+    box-sizing: border-box;
+    border-style: solid;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-color: #36283B;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 .main {
@@ -192,7 +200,9 @@ code {
 }
 
 #navigation li {
-    display: inline
+    display: inline-block;
+    margin: 0;
+    padding: 0;
 }
 
 #credits {
@@ -208,10 +218,25 @@ code {
 }
 
 ul#navigation {
+    font-size: 0;
     margin: 0;
     padding: 0;
 }
 
 .tab-content b {
     color: #cf548b;
+}
+
+.button:hover {
+    background-color: #954ab3;
+    color: #36283B;
+}
+
+a:hover {
+    color: #6257ff;
+}
+
+.border-left {
+    border-left-width: 2px;
+    border-color: #36283B;
 }
