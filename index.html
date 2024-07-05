@@ -21,7 +21,7 @@
     <div class="container border">
         <header class="header">
             <div class="profile">
-                <img class="avatar border" src="./assets/img/avatar.png" alt="user avatar">
+                <img class="avatar border" src="./assets/img/avatar.png" alt="avatar" onclick="closeTabs()">
                 <div class="profile-names">
                     <h1>Daria Kovaleva</h1>
                     <a><h3>@tetsus-christ</h3></a>
@@ -29,12 +29,12 @@
             </div>
             <nav>
                 <ul id="navigation">
-                    <li><button onclick="openTab('about')">about me</button></li>
-                    <li><button onclick="openTab('skills')">skills</button></li>
-                    <li><button onclick="openTab('code-example')">code example</button></li>
-                    <li><button onclick="openTab('projects')">projects</button></li>
-                    <li><button onclick="openTab('languages')">languages</button></li>
-                    <li><button onclick="openTab('contacts')">contacts</button></li>
+                    <li><button class="button" onclick="openTab('about')">about me</button></li>
+                    <li><button class="button" onclick="openTab('skills')">skills</button></li>
+                    <li><button class="button" onclick="openTab('code-example')">code</button></li>
+                    <li><button class="button" onclick="openTab('projects')">projects</button></li>
+                    <li><button class="button" onclick="openTab('languages')">languages</button></li>
+                    <li><button class="button" onclick="openTab('contacts')">contacts</button></li>
                 </ul>
             </nav>
         </header>
@@ -52,11 +52,9 @@
                     <h2>skills</h2>
                     <div class="tab-content">
                         <ul>
-                            <li><b>html</b></li>
-                            <li><b>css</b></li>
-                            <li><b>javascript</b></li>
-                            <li><b>git</b></li>
-                            <li><b>figma</b></li>
+                            <li><b>html & css</b> - i'm not a master, but i'm unstoppable as long as i have access to google</li>
+                            <li><b>javascript</b> - please be patient... work in progress...</li>
+                            <li><b>git</b> - well, you're reading this on github, so it's probably not that bad... but i still have a lot to learn</li>
                         </ul>
                     </div>
                 </section>
@@ -65,13 +63,13 @@
                     <div class="tab-content">
                         <pre>
                             <code>
-        function openTab(ref) {
-            var tabs = document.getElementsByClassName("tab");
-            for (let i = 0; i < tabs.length; i++) {
-            tabs[i].style.display = "none";
-            }
-             document.getElementById(ref).style.display = "block";
-        }</code>
+function openTab(ref) {
+    var tabs = document.getElementsByClassName("tab");
+    for (let i = 0; i < tabs.length; i++) {
+    tabs[i].style.display = "none";
+    }
+    document.getElementById(ref).style.display = "block";
+}</code>
                         </pre>
                     </div>
                 </section>

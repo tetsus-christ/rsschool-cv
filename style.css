@@ -5,7 +5,7 @@ del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 center,
 dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
+fieldset, form, label, legend, button,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
@@ -44,7 +44,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: "Comfortaa", "Arial", sans-serif;
-    color: #271b27;
+    color: #beb6c9;
     background-image: url("./assets/img/glitch-bg.png");
 }
 
@@ -52,21 +52,23 @@ h1,
 h2 {
     font-family: "Chango", "Arial Black", sans-serif;
     font-variant: small-caps;
+    color: #cf548b;
 }
 
 h1 {
     font-size: 30px;
-    color: #cf548b;
 }
 
 h2 {
-    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 24px;
 }
 
 h3 {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
-    color: #8d50c7;
+    color: #9c6ed1;
 }
 
 p {
@@ -74,26 +76,38 @@ p {
     margin: 10px;
     }
 
+a {
+    color: #3d94af;
+}
+
 ol, ul {
     line-height: 1.5;
     margin: 10px;
 	list-style: none;
 }
 
+li {
+    margin: 10px 0;
+}
+
 pre {
     font-family: "Cutive Mono", "Courier New", monospace;
   }
 
+code {
+    word-wrap: break-word;
+}
+
 .border {
     border-style: solid;
-    border-width: 3px;
-    border-color: #413041;
+    border-width: 2px;
+    border-color: #36283B;
 }
 
 .container {
     width: 800px;
     max-width: 90vw;
-    margin: auto;
+    margin: 20px auto;
     border-radius: 17px;
 }
 
@@ -101,7 +115,7 @@ pre {
 .footer {
     position: relative;
     text-align: center;
-    background-color: rgba(59, 26, 112, 0.664);
+    background-color: rgba(59, 26, 112, 0.6);
     backdrop-filter: blur(5px) saturate(70%);
 }
 
@@ -137,16 +151,31 @@ pre {
     display: inline;
 }
 
+.button {
+    width: 120px;
+    height: 40px;
+    display: inline-block;
+    margin: 0 0 -5px 0;
+    color: #cf548b;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Comfortaa", "Arial", sans-serif;
+    background-color: #36283B;
+    border-radius: 15px 15px 0 0;
+}
+
 .main {
     position: relative;
     padding: 0;
     text-align: center;
-    background-color: rgba(189, 92, 145, 0.85);
-    backdrop-filter: blur(7px);
+    background-color: #36283B;
+    backdrop-filter: blur(15px);
 }
 
 .tab-content {
-    width: 500px;
+    width: 600px;
     max-width: 70vw;
     margin: auto;
     text-align: left;
@@ -159,7 +188,7 @@ pre {
     border-radius: 0 0 15px 15px;
     border-top-style: solid;
     border-top-width: 2px;
-    border-top-color: #413041;
+    border-top-color: #36283B;
 }
 
 #navigation li {
@@ -178,6 +207,11 @@ pre {
     fill: #b95397;
 }
 
-#navigation {
+ul#navigation {
     margin: 0;
+    padding: 0;
+}
+
+.tab-content b {
+    color: #cf548b;
 }
