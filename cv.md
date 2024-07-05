@@ -1,5 +1,5 @@
 # Daria Kovaleva
-![a completely legitimate photo](./img/passport-photo.png)
+![a completely legitimate photo](./assets/img/passport-photo.png)
 ## ⟣ contacts
 - **phone**: +7 999 829 15 41
 - **e-mail**: tetsus.christ@gmail.com
@@ -9,7 +9,7 @@
 
 ## ⟣ about me
 
-i'm a complete newbie in web development, but i'm actively learning and eager to learn more. 
+i'm a complete newbie in web development, but i'm actively learning and eager to learn more.
 
 web development attracts me because for some reason i find coding a fun thing to do - especially when i can immediatly see the result, and it's interactive.
 
@@ -23,4 +23,4 @@ in long term, i aim to become a full-stack developer - but that's later, let me 
 
 **english**: C2, according to EF SET, but it only tested my reading and listening skills. i guess my writing is somewhere around B2, and speaking is unknown because i don't get many opportunities to speak english. better get ready for my strong russian accent.
 
-![EF SET results](./img/EF.png)
+![EF SET results](./assets/img/EF.png)
