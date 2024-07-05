@@ -21,10 +21,10 @@
     <div class="container border">
         <header class="header">
             <div class="profile">
-                <img class="avatar border" src="./assets/img/avatar.png" alt="avatar" onclick="closeTabs()">
+                <img class="avatar border" src="./assets/img/avatar.png" alt="avatar">
                 <div class="profile-names">
                     <h1>Daria Kovaleva</h1>
-                    <a><h3>@tetsus-christ</h3></a>
+                    <a href="https://github.com/tetsus-christ" target="_blank"><h3>@tetsus-christ</h3></a>
                 </div>
             </div>
             <nav>
@@ -61,22 +61,22 @@
                 <section class="tab" id="code-example" style="display:none">
                     <h2>code example</h2>
                     <div class="tab-content">
-                        <pre>
-                            <code>
-function openTab(ref) {
+                        <p>code, that opens tabs on this page:</p>
+                        <div class="code-container">
+<pre><code>function openTab(ref) {
     var tabs = document.getElementsByClassName("tab");
     for (let i = 0; i < tabs.length; i++) {
     tabs[i].style.display = "none";
     }
     document.getElementById(ref).style.display = "block";
-}</code>
-                        </pre>
+}</code></pre>
+                        </div>
                     </div>
                 </section>
                 <section class="tab" id="projects" style="display:none">
                     <h2>projects</h2>
                     <div class="tab-content">
-                        <p>i have only this cv.</p>
+                        <p>for now, my only project is this cv.</p>
                         <p>here's a link for you so you can look at it one more time:</p>
                     </div>
                 </section>
@@ -102,7 +102,7 @@ function openTab(ref) {
         </main>
         <footer class="footer">
             <div id="credits">
-                <p>© 2024 ~ <a href="https://github.com/tetsus-christ" target="_blank">tetsus-christ</a></p>
+                <p>© 2024 <a href="https://github.com/tetsus-christ" target="_blank">tetsus-christ</a></p>
             </div>
             <div id="logo">
                 <a href="https://rs.school/courses/javascript-ru" target="_blank">

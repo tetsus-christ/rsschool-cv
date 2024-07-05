@@ -44,7 +44,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: "Comfortaa", "Arial", sans-serif;
-    color: #beb6c9;
+    color: #beb1ce;
     background-image: url("./assets/img/glitch-bg.png");
 }
 
@@ -68,7 +68,7 @@ h2 {
 h3 {
     font-size: 18px;
     font-weight: bold;
-    color: #9c6ed1;
+    color: #4987b1;
 }
 
 p {
@@ -92,9 +92,12 @@ li {
 
 pre {
     font-family: "Cutive Mono", "Courier New", monospace;
+    font-size: 18px;
+    color: #9e72d4;
   }
 
 code {
+    white-space : pre-wrap !important;
     word-wrap: break-word;
 }
 
@@ -115,7 +118,7 @@ code {
 .footer {
     position: relative;
     text-align: center;
-    background-color: rgba(37, 21, 63, 0.637);
+    background-color: rgba(61, 32, 109, 0.7);
     backdrop-filter: blur(5px) saturate(70%);
 }
 
@@ -138,7 +141,6 @@ code {
     margin: 15px;
     text-align: right;
     border-radius: 50%;
-    cursor: pointer;
 }
 
 .profile-names {
@@ -175,7 +177,7 @@ code {
 
 .main {
     position: relative;
-    padding: 20px;
+    padding: 30px;
     text-align: center;
     background-color: #36283B;
     backdrop-filter: blur(15px);
@@ -185,13 +187,21 @@ code {
     width: 600px;
     max-width: 70vw;
     margin: auto;
+    margin-bottom: 15px;
     text-align: left;
+}
+
+.code-container {
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #211a24;
 }
 
 .footer {
     display: flex;
     justify-content: space-between;
     padding: 10px 30px 0 30px;
+    color: #cf548b;
     border-radius: 0 0 15px 15px;
     border-top-style: solid;
     border-top-width: 2px;
@@ -213,7 +223,7 @@ code {
 }
 
 #logo-svg {
-    fill: #b95397;
+    fill: #cf548b;
 }
 
 ul#navigation {
@@ -233,10 +243,15 @@ ul#navigation {
 }
 
 a:hover {
-    color: #6257ff;
+    color: #7a71f8;
 }
 
 .border-left {
     border-left-width: 2px;
     border-color: #36283B;
+}
+
+.profile-names a,
+.footer a {
+    text-decoration: none;
 }
