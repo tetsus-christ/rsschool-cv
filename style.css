@@ -226,6 +226,10 @@ code {
     cursor: default;
 }
 
+.secret-heading {
+    font-size: 0;
+}
+
 .navigation li {
     display: inline-block;
     margin: 0;
