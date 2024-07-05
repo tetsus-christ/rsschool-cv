@@ -171,12 +171,11 @@ code {
     border-right-width: 2px;
     border-color: #36283B;
     cursor: pointer;
-    transition: 0.3s;
 }
 
 .main {
     position: relative;
-    padding: 0;
+    padding: 20px;
     text-align: center;
     background-color: #36283B;
     backdrop-filter: blur(15px);
@@ -230,6 +229,7 @@ ul#navigation {
 .button:hover {
     background-color: #954ab3;
     color: #36283B;
+    transition: 0.3s;
 }
 
 a:hover {

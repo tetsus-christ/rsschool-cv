@@ -29,7 +29,7 @@
             </div>
             <nav>
                 <ul id="navigation">
-                    <li><button class="button border-left" onclick="openTab('about', this)">about me</button></li>
+                    <li><button class="button border-left" id="default-tab" onclick="openTab('about', this)">about me</button></li>
                     <li><button class="button" onclick="openTab('skills', this)">skills</button></li>
                     <li><button class="button" onclick="openTab('code-example', this)">code</button></li>
                     <li><button class="button" onclick="openTab('projects', this)">projects</button></li>
@@ -39,7 +39,7 @@
             </nav>
         </header>
         <main class="main" id="main">
-                <section class="tab" id="about" style="display:none">
+                <section class="tab" id="about" style="display:block">
                     <h2>about me</h2>
                     <div class="tab-content">
                         <p>i'm a complete newbie in web development, but i'm actively learning and eager to learn more.</p>
